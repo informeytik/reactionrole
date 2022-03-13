@@ -1,0 +1,668 @@
+{
+  "name": "rr",
+  "permissions": "ADMINISTRATOR",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "duDiA",
+  "actions": [
+    {
+      "storage": "0",
+      "varName": "",
+      "reason": "",
+      "name": "Delete Message"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Chłopak",
+          "type": "SECONDARY",
+          "id": "msg-button-9360104",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": [
+            {
+              "member": "1",
+              "varName": "",
+              "role": "101",
+              "varName2": "947246523991879690",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "3",
+                "iffalseVal": "2"
+              },
+              "name": "Check If Member has Role"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Błąd!",
+                  "url": "",
+                  "color": "RED",
+                  "timestamp": "true",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Już posiadasz role Dziewczyna!",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [
+                {
+                  "name": "Otrzymaj",
+                  "type": "SUCCESS",
+                  "id": "msg-button-9c86d44",
+                  "row": "",
+                  "url": "",
+                  "emoji": "",
+                  "mode": "PERSISTENT",
+                  "time": "",
+                  "actions": [
+                    {
+                      "member": "1",
+                      "varName": "",
+                      "role": "101",
+                      "varName2": "947246484682838068",
+                      "branch": {
+                        "iftrue": "0",
+                        "iffalse": "3",
+                        "iffalseVal": "2"
+                      },
+                      "name": "Check If Member has Role"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Błąd!",
+                          "url": "",
+                          "color": "RED",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Już masz tą range!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "name": "End Action Sequence"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Sukces!",
+                          "url": "",
+                          "color": "GREEN",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Pomyślnie otrzymałeś role chłopak!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "member": "1",
+                      "varName2": "",
+                      "role": "101",
+                      "varName": "947246484682838068",
+                      "reason": "",
+                      "name": "Add Member Role"
+                    }
+                  ]
+                },
+                {
+                  "name": "Usuń",
+                  "type": "DANGER",
+                  "id": "msg-button-b1501d4",
+                  "row": "",
+                  "url": "",
+                  "emoji": "",
+                  "mode": "PERSISTENT",
+                  "time": "",
+                  "actions": [
+                    {
+                      "member": "1",
+                      "varName": "",
+                      "role": "101",
+                      "varName2": "947246484682838068",
+                      "branch": {
+                        "iftrue": "3",
+                        "iffalse": "0",
+                        "iftrueVal": "2"
+                      },
+                      "name": "Check If Member has Role"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Błąd!",
+                          "url": "",
+                          "color": "RED",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Nie masz tej rangi!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "name": "End Action Sequence"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Sukces!",
+                          "url": "",
+                          "color": "GREEN",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Pomyślnie usunięto range",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "member": "1",
+                      "varName2": "",
+                      "role": "101",
+                      "varName": "947246484682838068",
+                      "reason": "",
+                      "name": "Remove Member Role"
+                    }
+                  ]
+                }
+              ],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Chłopak",
+                  "url": "",
+                  "color": "BLUE",
+                  "timestamp": "true",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Wybierz czy chcesz otrzymać czy usunąć role.",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            }
+          ]
+        },
+        {
+          "name": "Dziewczyna",
+          "type": "SECONDARY",
+          "id": "msg-button-5a936cf",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PERSISTENT",
+          "time": "",
+          "actions": [
+            {
+              "member": "1",
+              "varName": "",
+              "role": "101",
+              "varName2": "947246484682838068",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "3",
+                "iffalseVal": "2"
+              },
+              "name": "Check If Member has Role"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Błąd!",
+                  "url": "",
+                  "color": "RED",
+                  "timestamp": "true",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Już posiadasz role Chłopak!",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "channel": "0",
+              "varName": "",
+              "message": "",
+              "buttons": [
+                {
+                  "name": "Otrzymaj",
+                  "type": "SUCCESS",
+                  "id": "msg-button-0f01c52",
+                  "row": "",
+                  "url": "",
+                  "emoji": "",
+                  "mode": "PERSISTENT",
+                  "time": "",
+                  "actions": [
+                    {
+                      "member": "1",
+                      "varName": "",
+                      "role": "101",
+                      "varName2": "947246523991879690",
+                      "branch": {
+                        "iftrue": "0",
+                        "iffalse": "3",
+                        "iffalseVal": "2"
+                      },
+                      "name": "Check If Member has Role"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Błąd!",
+                          "url": "",
+                          "color": "RED",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Już masz tą range!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "name": "End Action Sequence"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Sukces!",
+                          "url": "",
+                          "color": "GREEN",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Pomyślnie otrzymałaś role dziewczyna!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "member": "1",
+                      "varName2": "",
+                      "role": "101",
+                      "varName": "947246523991879690",
+                      "reason": "",
+                      "name": "Add Member Role"
+                    }
+                  ]
+                },
+                {
+                  "name": "Usuń",
+                  "type": "DANGER",
+                  "id": "msg-button-3383514",
+                  "row": "",
+                  "url": "",
+                  "emoji": "",
+                  "mode": "PERSISTENT",
+                  "time": "",
+                  "actions": [
+                    {
+                      "member": "1",
+                      "varName": "",
+                      "role": "101",
+                      "varName2": "947246523991879690",
+                      "branch": {
+                        "iftrue": "3",
+                        "iffalse": "0",
+                        "iftrueVal": "2"
+                      },
+                      "name": "Check If Member has Role"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Błąd!",
+                          "url": "",
+                          "color": "RED",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Nie masz tej rangi!",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "name": "End Action Sequence"
+                    },
+                    {
+                      "channel": "0",
+                      "varName": "",
+                      "message": "",
+                      "buttons": [],
+                      "selectMenus": [],
+                      "attachments": [],
+                      "embeds": [
+                        {
+                          "title": "Sukces!",
+                          "url": "",
+                          "color": "GREEN",
+                          "timestamp": "true",
+                          "imageUrl": "",
+                          "thumbUrl": "",
+                          "description": "Pomyślnie usunięto range",
+                          "fields": [],
+                          "author": "",
+                          "authorUrl": "",
+                          "authorIcon": "",
+                          "footerText": "",
+                          "footerIconUrl": ""
+                        }
+                      ],
+                      "reply": true,
+                      "ephemeral": true,
+                      "tts": false,
+                      "overwrite": false,
+                      "dontSend": false,
+                      "editMessage": "0",
+                      "editMessageVarName": "",
+                      "storage": "0",
+                      "varName2": "",
+                      "name": "Send Message"
+                    },
+                    {
+                      "member": "1",
+                      "varName2": "",
+                      "role": "101",
+                      "varName": "947246523991879690",
+                      "reason": "",
+                      "name": "Remove Member Role"
+                    }
+                  ]
+                }
+              ],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Dziewczyna",
+                  "url": "",
+                  "color": "RED",
+                  "timestamp": "true",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "Wybierz czy chcesz otrzymać czy usunąć role.",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": true,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Płeć:",
+          "url": "",
+          "color": "BLACK",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "https://cdn.discordapp.com/attachments/869201324804296736/947532241926500362/plec.png",
+          "description": "Wybierz role z twoją płcią.",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "0"
+}
